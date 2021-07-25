@@ -1,27 +1,21 @@
-.button {
-    min-height: 50px;
-    padding: 5px;
-    margin: 5px;
-    font-weight: 800;
-    color: #fff;
-  }
-  
   .teal-button {
     background: #4aaaa5;
     padding: 10px;
     margin: -20px;
-    font-size: x-large;
-    color: #fff;
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ffffff;
 
   }
 
   .header {
     color: #4aaaa5;
     font-size: x-large;
-
   }
   .title {
     margin-top: 15px;
+    margin-bottom: 20px;
     color: #4aaaa5;
     font-size: xx-large;
   }

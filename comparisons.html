@@ -13,21 +13,23 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand teal-button" href="index.html">Lattitude</a>
+        <a class="navbar-brand" href="index.html">
+          <h1 class="teal-button">Lattitude</h1>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown ms-auto">
-              <a class="nav-link dropdown-toggle ms-auto" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle ms-auto" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Plots
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="#">Humidity</a></li>
-                <li><a class="dropdown-item" href="#">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+                <li><a class="dropdown-item" href="viz_1_maxtemp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="viz_2_humid.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="viz_3_cloud.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="viz_4_wind.html">Wind Speed</a></li>
               </ul>
             </li>
             <li class="nav-item ms-auto">
@@ -40,42 +42,43 @@
         </div>
       </div>
     </nav>
-
-    <div class="row">
-      <h1 class="title">
-        Comparison: Lattitude vs
-      </h1>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <h2 class="header">Maximum Temperature</h2>
-        <a target="_blank" href="Resources/images/LatMaxTemp.png">
-          <img src="Resources/images/LatMaxTemp.png" alt="Maximum Temperature">
-        </a>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <h2 class="header">Humidity</h2>
-        <a target="_blank" href="Resources/images/LatHumid.png">
-          <img src="Resources/images/LatHumid.png" alt="Humidity">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6">
-        <h2 class="header">Cloudiness</h2>
-        <a target="_blank" href="Resources/images/LatCloud.png">
-          <img src="Resources/images/LatCloud.png" alt="Cloudiness">
-        </a>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <h2 class="header">Wind Speed</h2>
-        <a target="_blank" href="Resources/images/LatWind.png">
-          <img src="Resources/images/LatWind.png" alt="Windiness">
-        </a>
-      </div>
-    </div>
   </div>
+
+  <div class="row">
+    <h1 class="title">
+      Comparison: Lattitude vs
+    </h1>
+    <hr>
+  </div>
+  <div class="row">
+    <article class="plot col-md-6">
+      <h2 class="header">Maximum Temperature</h2>
+      <a target="_blank" href="Resources/images/LatMaxTemp.png">
+        <img src="Resources/images/LatMaxTemp.png" alt="Maximum Temperature">
+      </a>
+    </article>
+    <article class="plot col-md-6">
+      <h2 class="header">Humidity</h2>
+      <a target="_blank" href="Resources/images/LatHumid.png">
+        <img src="Resources/images/LatHumid.png" alt="Humidity">
+      </a>
+    </article>
+  </div>
+  <div class="row">
+    <article class="plot col-md-6">
+      <h2 class="header">Cloudiness</h2>
+      <a target="_blank" href="Resources/images/LatCloud.png">
+        <img src="Resources/images/LatCloud.png" alt="Cloudiness">
+      </a>
+    </article>
+    <article class="plot col-md-6">
+      <h2 class="header">Wind Speed</h2>
+      <a target="_blank" href="Resources/images/LatWind.png">
+        <img src="Resources/images/LatWind.png" alt="Windiness">
+      </a>
+    </article>
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
