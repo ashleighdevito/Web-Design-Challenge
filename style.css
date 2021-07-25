@@ -6,7 +6,22 @@
     color: #fff;
   }
   
-  .teal {
+  .teal-button {
     background: #4aaaa5;
-    color: white;
+    padding: 10px;
+    margin: -20px;
+    font-size: x-large;
+    color: #fff;
+
+  }
+
+  .header {
+    color: #4aaaa5;
+    font-size: x-large;
+
+  }
+  .title {
+    margin-top: 15px;
+    color: #4aaaa5;
+    font-size: xx-large;
   }
