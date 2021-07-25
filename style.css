@@ -1,7 +1,6 @@
   .teal-button {
     background: #4aaaa5;
     padding: 10px;
-    margin: -20px;
     border-radius: 5px;
     font-size: xx-large;
     font-weight: bold;
@@ -9,13 +8,51 @@
 
   }
 
+  .bar { 
+    background-color: #ffffff;
+    margin-top: -8px;
+  }
+
   .header {
     color: #4aaaa5;
+    margin-top: 15px;
     font-size: x-large;
+    font-weight: 400;
+    text-align: left;
   }
   .title {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #4aaaa5;
     font-size: xx-large;
+    font-weight: 500;
+  }
+
+  .body {
+    background-color: #ededed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    line-height: 175%;
+  }
+
+  .container {
+    background-color: white;
+    margin-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  .plot {
+    padding-left: 45px;
+  }
+
+  #content  {
+    float: left;
+  }
+
+  #landing-figure {
+    width: 500px;
+    height: 325px;
+    float:left;
   }
