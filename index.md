@@ -27,7 +27,7 @@
               Plots
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="viz_1_maxtemp.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" aria-current="page">Max Temperature</a></li>
               <li><a class="dropdown-item" href="viz_2_humid.html">Humidity</a></li>
               <li><a class="dropdown-item" href="viz_3_cloud.html">Cloudiness</a></li>
               <li><a class="dropdown-item" href="viz_4_wind.html">Wind Speed</a></li>
