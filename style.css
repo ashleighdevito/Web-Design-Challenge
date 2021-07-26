@@ -8,11 +8,21 @@
 
   }
 
+  .teal {
+    background: #4aaaa5;
+  }
+
   .bar { 
     background-color: #ffffff;
     margin-top: -8px;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  @media (max-width: 990px)  {
+    .bar {
+      background-color: #4aaaa5;
+    }
   }
 
   .header {
