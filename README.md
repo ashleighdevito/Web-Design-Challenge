@@ -18,4 +18,4 @@ Plots included:
     Cloudiness (%) vs. Latitude
     Wind Speed (mph) vs. Latitude
 
-** [Live site can be found here](https://ashleighdevito.github.io/Web-Design-Challenge/) **
+**[Live site can be found here](https://ashleighdevito.github.io/Web-Design-Challenge/)**
