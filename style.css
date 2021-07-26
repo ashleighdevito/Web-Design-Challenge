@@ -11,6 +11,8 @@
   .bar { 
     background-color: #ffffff;
     margin-top: -8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .header {
@@ -38,10 +40,10 @@
   .container {
     background-color: white;
     margin-top: 25px;
-    padding-bottom: 20px;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-
   }
   .plot {
     padding-left: 45px;
@@ -55,4 +57,13 @@
     width: 500px;
     height: 325px;
     float:left;
+  }
+  .figure {
+    width: 600px;
+    height: 400px;
+  }
+
+  .figure-button  {
+    width: 125px;
+    height: 90px;
   }
