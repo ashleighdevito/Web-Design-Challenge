@@ -48,57 +48,61 @@
     <div class="row" style="margin-top: 100px;"></div>
     <div class="col-1">
     </div>
-    <div class="container content col-lg-6">
+    <div class="container content col-lg-6 clearfix">
       <div class="row">
         <h1 class="title">
           Maximum Temperature
         </h1>
         <hr>
-        <img src="Resources/images/LatMaxTemp.png" alt="Maximum Temperature" class="figure">
-        <br>
-        <div id="content">
+      </div>
+      <div class="row">
+        <div>
+          <img src="Resources/images/LatMaxTemp.png" alt="Maximum Temperature" class="image-responsive rounded mx-auto d-block" width="75%">
+          <br>
           <p>
-            The above plot is illustrating the highest temperature of the day on 6/13/21 at various cities across the globe, compared to that city's distance from the equator. The 0 latitude, near the equator, is showing generally higher temperatures than closer to the poles. This supports the statement that it will typically get colder further from the equator.
+          The above plot is illustrating the highest temperature of the day on 6/13/21 at various cities across the globe, compared to that city's distance from the equator. The 0 latitude, near the equator, is showing generally higher temperatures than closer to the poles. This supports the statement that it will typically get colder further from the equator.
           </p>
         </div>
       </div>
     </div>
 
-    <div class="container col-lg-3">
-      <div class="row content">
-        <h1 class="title">
-          Visualizations
-        </h1>
-        <hr>
-      </div>
-      <div class="d-flex flex-wrap justify-content-center viz">
-        <div class="col-lg-6">
-          <a href="viz_1_maxtemp.html">
-            <img src="Resources/images/LatMaxTemp.png" alt="Maximum Temperature" class="figure-button">
-          </a>
+    <div class="col-lg-3">
+      <div class="container content">
+        <div class="row">
+          <h1 class="title viz">
+            Visualizations
+          </h1>
+          <hr>
         </div>
-        <div class="col-lg-6">
-          <a href="viz_2_humid.html">
-            <img src="Resources/images/LatHumid.png" alt="Humidity"  class="figure-button">
-          </a>
+        <div class="row">
+          <div class="d-flex flex-wrap">
+            <div class="col-3 col-lg-6">
+              <a href="viz_1_maxtemp.html">
+                <img src="Resources/images/LatMaxTemp.png" alt="Maximum Temperature" class="image-responsive img-thumbnail highlight" width="100%">
+              </a>
+            </div>
+            <div class="col-3 col-lg-6">
+              <a href="viz_2_humid.html">
+                <img src="Resources/images/LatHumid.png" alt="Humidity"  class="image-responsive img-thumbnail lowlight" width="100%">
+              </a>
+            </div>
+            <div class="col-3 col-lg-6">
+              <a href="viz_3_cloud.html">
+                <img src="Resources/images/LatCloud.png" alt="Cloudiness"  class="image-responsive img-thumbnail lowlight" width="100%">
+              </a>
+            </div>
+            <div class="col-3 col-lg-6">
+              <a href="viz_4_wind.html">
+                <img src="Resources/images/LatWind.png" alt="Wind Speed"  class="image-responsive img-thumbnail lowlight" width="100%">
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6">
-          <a href="viz_3_cloud.html">
-            <img src="Resources/images/LatCloud.png" alt="Cloudiness"  class="figure-button">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a href="viz_4_wind.html">
-            <img src="Resources/images/LatWind.png" alt="Wind Speed"  class="figure-button">
-          </a>
-        </div>
-      </div>
+      </div>  
     </div>
     <div class="col-lg-1">
     </div>
   </div>
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

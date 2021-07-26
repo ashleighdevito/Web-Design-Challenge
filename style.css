@@ -5,11 +5,6 @@
     font-size: xx-large;
     font-weight: bold;
     color: #ffffff;
-
-  }
-
-  .teal {
-    background: #4aaaa5;
   }
 
   .bar { 
@@ -19,7 +14,7 @@
     padding-bottom: 5px;
   }
 
-  @media (max-width: 990px)  {
+  @media (max-width: 991px)  {
     .bar {
       background-color: #4aaaa5;
     }
@@ -32,6 +27,7 @@
     font-weight: 400;
     text-align: left;
   }
+
   .title {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -50,7 +46,7 @@
   }
 
   .container {
-    background-color: white;
+    background-color: #ffffff;
     margin-top: 25px;
     margin-bottom: 35px;
     padding-bottom: 20px;
@@ -63,27 +59,20 @@
     padding-right: 60px;
   }
 
-  .viz  {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   #content  {
     float: left;
   }
 
-  #landing-figure {
-    width: 425px;
-    height: 300px;
-    float:left;
-  }
-  .figure {
-    width: 600px;
-    height: 400px;
-    padding-bottom: 20px;
+  .highlight  {
+    border-width: 3px;
+    border-color: #4aaaa5;
   }
 
-  .figure-button  {
-    width: 125px;
-    height: 90px;
+  .lowlight {
+    border-width: 3px;
+    border-color: #ffffff;
   }
+
+   .viz {
+     font-size: x-large;
+   }
